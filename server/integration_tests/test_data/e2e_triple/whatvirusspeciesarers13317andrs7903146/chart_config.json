@@ -12,36 +12,8 @@
                     "answerTableTileSpec": {
                       "columns": [
                         {
-                          "header": "Alignment Quality",
-                          "propertyExpr": "->alignmentQuality"
-                        },
-                        {
-                          "header": "Allele Origin",
-                          "propertyExpr": "->alleleOrigin"
-                        },
-                        {
-                          "header": "Average Heterozygosity",
-                          "propertyExpr": "->averageHeterozygosity"
-                        },
-                        {
-                          "header": "Average Heterozygosity SE",
-                          "propertyExpr": "->averageHeterozygositySE"
-                        },
-                        {
-                          "header": "Class",
-                          "propertyExpr": "->class"
-                        },
-                        {
-                          "header": "Clin Var Allele ID",
-                          "propertyExpr": "->clinVarAlleleID"
-                        },
-                        {
-                          "header": "Clin Var Review Status",
-                          "propertyExpr": "->clinVarReviewStatus"
-                        },
-                        {
-                          "header": "Clin Var Variation ID",
-                          "propertyExpr": "->clinVarVariationID"
+                          "header": "Chrom",
+                          "propertyExpr": "->chrom"
                         },
                         {
                           "header": "Clinical Annotation Count",
@@ -56,48 +28,24 @@
                           "propertyExpr": "->clinicalGuidelineAnnotationCount"
                         },
                         {
-                          "header": "Clinical Significance",
-                          "propertyExpr": "->clinicalSignificance"
+                          "header": "Cytogenetic Map Location",
+                          "propertyExpr": "->cytogeneticMapLocation"
                         },
                         {
-                          "header": "Clinical Source",
-                          "propertyExpr": "->clinicalSource"
-                        },
-                        {
-                          "header": "Date Created",
-                          "propertyExpr": "->dateCreated"
-                        },
-                        {
-                          "header": "Date Established",
-                          "propertyExpr": "->dateEstablished"
-                        },
-                        {
-                          "header": "Date Revised",
-                          "propertyExpr": "->dateRevised"
+                          "header": "Date Modified",
+                          "propertyExpr": "->dateModified"
                         },
                         {
                           "header": "Description",
                           "propertyExpr": "->description"
                         },
                         {
-                          "header": "Disease Name",
-                          "propertyExpr": "->diseaseName"
-                        },
-                        {
                           "header": "Drug Label Annotation Count",
                           "propertyExpr": "->drugLabelAnnotationCount"
                         },
                         {
-                          "header": "Exceptions",
-                          "propertyExpr": "->exceptions"
-                        },
-                        {
-                          "header": "Functional Category",
-                          "propertyExpr": "->functionalCategory"
-                        },
-                        {
-                          "header": "Gene ID",
-                          "propertyExpr": "->geneID"
+                          "header": "Full Name",
+                          "propertyExpr": "->fullName"
                         },
                         {
                           "header": "Gene Symbol",
@@ -108,112 +56,24 @@
                           "propertyExpr": "->geneticVariantAnnotationCount"
                         },
                         {
-                          "header": "Genetic Variant Attribute",
-                          "propertyExpr": "->geneticVariantAttribute"
-                        },
-                        {
-                          "header": "Genetic Variant Class",
-                          "propertyExpr": "->geneticVariantClass"
-                        },
-                        {
-                          "header": "Genetic Variant Functional Category",
-                          "propertyExpr": "->geneticVariantFunctionalCategory"
-                        },
-                        {
-                          "header": "Genetic Variant Molecular Type",
-                          "propertyExpr": "->geneticVariantMolecularType"
-                        },
-                        {
-                          "header": "Has MeSH Qualifier",
-                          "propertyExpr": "->hasMeSHQualifier"
-                        },
-                        {
-                          "header": "Hg19 Genomic Location",
-                          "propertyExpr": "->hg19GenomicLocation"
-                        },
-                        {
-                          "header": "Hg19 Genomic Position",
-                          "propertyExpr": "->hg19GenomicPosition"
-                        },
-                        {
-                          "header": "Hg38 Genomic Location",
-                          "propertyExpr": "->hg38GenomicLocation"
-                        },
-                        {
-                          "header": "Hg38 Genomic Position",
-                          "propertyExpr": "->hg38GenomicPosition"
-                        },
-                        {
-                          "header": "Hgvs Nomenclature",
-                          "propertyExpr": "->hgvsNomenclature"
-                        },
-                        {
-                          "header": "Human Phenotype Ontology ID",
-                          "propertyExpr": "->humanPhenotypeOntologyID"
-                        },
-                        {
-                          "header": "Identifier",
-                          "propertyExpr": "->identifier"
-                        },
-                        {
-                          "header": "In Chromosome",
-                          "propertyExpr": "->inChromosome"
-                        },
-                        {
-                          "header": "Loc Type",
-                          "propertyExpr": "->locType"
-                        },
-                        {
-                          "header": "Med Gen ID",
-                          "propertyExpr": "->medGenID"
-                        },
-                        {
-                          "header": "Medical Dictionary For Regulatory Activities Id",
-                          "propertyExpr": "->medicalDictionaryForRegulatoryActivitiesId"
-                        },
-                        {
-                          "header": "Medical Subject Heading ID",
-                          "propertyExpr": "->medicalSubjectHeadingID"
-                        },
-                        {
-                          "header": "Medical Subject Heading Tree Number",
-                          "propertyExpr": "->medicalSubjectHeadingTreeNumber"
-                        },
-                        {
-                          "header": "Mondo ID",
-                          "propertyExpr": "->mondoID"
-                        },
-                        {
-                          "header": "N Alleles With Freq",
-                          "propertyExpr": "->nAllelesWithFreq"
+                          "header": "Has Genomic Coordinates",
+                          "propertyExpr": "->hasGenomicCoordinates"
                         },
                         {
                           "header": "Name",
                           "propertyExpr": "->name"
                         },
                         {
-                          "header": "National Drug File Reference Terminology Code",
-                          "propertyExpr": "->nationalDrugFileReferenceTerminologyCode"
-                        },
-                        {
                           "header": "Ncbi Gene ID",
                           "propertyExpr": "->ncbiGeneID"
                         },
                         {
-                          "header": "Observed Allele",
-                          "propertyExpr": "->observedAllele"
+                          "header": "Ncbi Sequence Gi Number",
+                          "propertyExpr": "->ncbiSequenceGiNumber"
                         },
                         {
                           "header": "Of Species",
                           "propertyExpr": "->ofSpecies"
-                        },
-                        {
-                          "header": "Omim ID",
-                          "propertyExpr": "->omimID"
-                        },
-                        {
-                          "header": "Orpha Number",
-                          "propertyExpr": "->orphaNumber"
                         },
                         {
                           "header": "Pharm GKBID",
@@ -224,44 +84,16 @@
                           "propertyExpr": "->provenance"
                         },
                         {
-                          "header": "Reference Allele NCBI",
-                          "propertyExpr": "->referenceAlleleNCBI"
+                          "header": "Pub Med ID",
+                          "propertyExpr": "->pubMedID"
                         },
                         {
-                          "header": "Reference Allle UCSC",
-                          "propertyExpr": "->referenceAllleUCSC"
-                        },
-                        {
-                          "header": "Reference SNP Cluster ID",
-                          "propertyExpr": "->referenceSNPClusterID"
+                          "header": "Ref Seq Genomic Accession",
+                          "propertyExpr": "->refSeqGenomicAccession"
                         },
                         {
                           "header": "Rs ID",
                           "propertyExpr": "->rsID"
-                        },
-                        {
-                          "header": "Sequence Ontology ID",
-                          "propertyExpr": "->sequenceOntologyID"
-                        },
-                        {
-                          "header": "Snomed CT",
-                          "propertyExpr": "->snomedCT"
-                        },
-                        {
-                          "header": "Specialization Of",
-                          "propertyExpr": "->specializationOf"
-                        },
-                        {
-                          "header": "Strand Orientation",
-                          "propertyExpr": "->strandOrientation"
-                        },
-                        {
-                          "header": "Submitter",
-                          "propertyExpr": "->submitter"
-                        },
-                        {
-                          "header": "Submitter Count",
-                          "propertyExpr": "->submitterCount"
                         },
                         {
                           "header": "Synonym",
@@ -270,23 +102,15 @@
                         {
                           "header": "Type Of",
                           "propertyExpr": "->typeOf"
-                        },
-                        {
-                          "header": "Umls Concept Unique ID",
-                          "propertyExpr": "->umlsConceptUniqueID"
-                        },
-                        {
-                          "header": "Validation Status",
-                          "propertyExpr": "->validationStatus"
                         }
                       ]
                     },
                     "entities": [
-                      "bio/D014777",
-                      "bio/rs13317",
+                      "bio/ncbi_59246804",
+                      "bio/ncbi_59275321",
                       "bio/rs7903146"
                     ],
-                    "title": "Here are all the properties for Virus Diseases, rs13317 and rs7903146",
+                    "title": "Here are all the properties for are and rs7903146",
                     "type": "ANSWER_TABLE"
                   }
                 ]
@@ -301,13 +125,13 @@
   "debug": {},
   "entities": [
     {
-      "dcid": "bio/D014777",
-      "name": "Virus Diseases",
+      "dcid": "bio/ncbi_59246804",
+      "name": "are",
       "type": ""
     },
     {
-      "dcid": "bio/rs13317",
-      "name": "rs13317",
+      "dcid": "bio/ncbi_59275321",
+      "name": "are",
       "type": ""
     },
     {
@@ -331,7 +155,6 @@
     "peerPlaces": [],
     "peerTopics": []
   },
-  "svSource": "CURRENT_QUERY",
-  "userMessage": "",
+  "svSource": "UNKNOWN",
   "userMessages": []
 }

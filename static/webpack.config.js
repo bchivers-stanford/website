@@ -44,6 +44,10 @@ const config = {
     ],
     timeline_bulk_download: [__dirname + "/js/tools/timeline/bulk_download.ts"],
     mcf_playground: __dirname + "/js/mcf_playground.js",
+    base: [
+      __dirname + "/js/apps/base/main.ts",
+      __dirname + "/css/core.scss",
+    ],
     place: [
       __dirname + "/js/place/place.ts",
       __dirname + "/css/place/place_page.scss",
@@ -87,6 +91,10 @@ const config = {
       __dirname + "/js/browser/browser.ts",
       __dirname + "/css/browser.scss",
     ],
+    browser_landing: [
+      __dirname + "/js/apps/browser_landing/main.ts",
+      __dirname + "/css/browser_landing.scss",
+    ],
     biomedical: __dirname + "/css/biomedical/biomedical_shared.scss",
     biomedical_landing: [
       __dirname + "/js/biomedical/landing/main.ts",
@@ -125,7 +133,15 @@ const config = {
       __dirname + "/js/import_wizard2/import_wizard.ts",
       __dirname + "/css/import_wizard2.scss",
     ],
+    about: [
+      __dirname + "/js/apps/about/main.ts",
+      __dirname + "/css/about.scss",
+    ],
     admin: [__dirname + "/js/admin/main.ts", __dirname + "/css/admin.scss"],
+    build: [
+      __dirname + "/js/apps/build/main.ts",
+      __dirname + "/css/build.scss",
+    ],
     disaster_dashboard: [
       __dirname + "/js/apps/disaster_dashboard/main.ts",
       __dirname + "/css/disaster_dashboard.scss",
